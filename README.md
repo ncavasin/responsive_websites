@@ -18,6 +18,5 @@ e.g: \<a href=http://www.facebook.com>Link to facebook\<a>.<br>
 e.g: \<a href=logo.jpg>Link to logo image\<a>.
 
 * 4 - Use 'target' attribute inside an "a" tag to define wheter the link should be opened in the same tab (taget=_self) or in a new one (taget=_blank).<br>
-
 e.g:\<a href=logo.jpg target="_blank">Link to logo image\<a>.
 
