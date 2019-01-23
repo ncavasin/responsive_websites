@@ -7,6 +7,6 @@ Finish date:
 
 ### Stuff learnt so far
 
-#### 1 - Use <br> as \n in java.
-#### 2 - Use 'alt' attribute inside an "img" tag in case the browser cannot show the image. The content should describe the image.
+1 - Use '<br>' as \n in java.
+2 - Use 'alt' attribute inside an "img" tag in case the browser cannot show the image. The content should describe the image.
 
