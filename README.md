@@ -5,7 +5,9 @@ Start date: Tuesday 22/1/2019
 
 Finish date:
 
-### Stuff learnt so far
+# Stuff learnt so far
+
+## Section 2 - Intro to HTML
 
 * 1 - Use '\<br>' as '\n' in java.
 
@@ -23,4 +25,7 @@ e.g: \<a href=logo.jpg>Link to logo image\<a>.
     
     * In a new tab (_blank):<br>
     e.g:\<a href=logo.jpg target="_blank">Link to logo image\<a>.
+
+
+## Section 3 - Intro to CSS
 
