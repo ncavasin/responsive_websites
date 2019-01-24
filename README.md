@@ -29,3 +29,35 @@ e.g: \<a href=logo.jpg>Link to logo image\<a>.
 
 ## Section 3 - Intro to CSS
 
+* 1 - Use "link" tag to link CSSs files to the HTML. It must be placed in the HTML "header".<br>
+  * e.g: \<link rel="stylesheet" type="text/css" href="style.css">
+
+* 2 - CSS is rule based. Each rule has a selector (h1, h2, p, etc.) block and a decorator block (color, font-size, font-family, etc.).
+  * e.g: 
+    * h1{ <br> 
+        color : green;<br>
+        font-size: 30px;<br>
+        font-family: Arial;
+        }
+    * p{<br> 
+        color: crimson;<br>
+        font-size: 15px;<br>     font-family: Arial;<br>
+        }
+
+* 3 - Common decorations can be combined in a single rule to prevent code repetition.
+  * e.g: 
+    * h1, p{<br>
+            font-family: Arial;<br>
+            }
+    * h1{ <br> 
+        color : green;<br>
+        font-size: 30px;<br>
+        }
+    * p{<br> 
+        color: crimson;<br>
+        font-size: 15px;<br>
+        }
+  
+
+
+
