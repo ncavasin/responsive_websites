@@ -57,6 +57,22 @@ e.g: \<a href=logo.jpg>Link to logo image\<a>.
         color: crimson;<br>
         font-size: 15px;<br>
         }
+
+* 4 - We can define a basic rule that applies to the whole body of the HTML (its visible part) and then override it with specific rules.
+  * e.g: 
+    * body{<br> 
+        color: red;<br>
+        font-family: Arial;<br>
+        }
+    * h1{ <br> 
+        color : green;<br>
+        font-size: 30px;<br>
+        }
+    * p{<br> 
+        color: crimson;<br>
+        font-size: 15px;<br>
+        }
+
   
 
 
