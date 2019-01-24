@@ -19,6 +19,18 @@ h2{
 p{
     font-size: 18px;
     text-align: justify;
-    
 }
+
+.main-text{
+    text-align: right
+}
+
+.random-text{
+    text-align: center
+}
+
+#author-id{
+    font-size: 22px;
+}
+
 

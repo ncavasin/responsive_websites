@@ -78,9 +78,30 @@ e.g: \<a href=logo.jpg>Link to logo image\<a>.
   * e.g: #00FF00 => represents green color.
   * e.g: #0000FF => represents blue.
 
-* 6 - CSS colors can have transparency. In order to use it, the notation has to be different from RGB. Each color HEX value is converted to decimal and then and an additional fractional number is used to define the grade of transparency.<br>
+* 6 - CSS colors can have transparency.  In order to use it, the notation has to be different from RGB. Each color HEX value is converted to decimal and then and an additional fractional number is used to define the grade of transparency.<br>
   * e.g: #00FF00 => rgba(0, 128, 0, 1.0).
   * e.g: #FF0000 => rgba(128, 0, 0, 0.75).
+
+* 7 - HTML allows the definition of <strong>class</strong>es and <strong>id</strong>'s through the attributes 'class' and 'id'. This attributes can be applied to <em> any </em> tag of the HTML file but id's must be unique inside each HTML file and can be applied to one tag only.
+  * e.g: \<body class='main-text> <em>...paragraph text goes here...</em>\</body>.
+  * e.g: \<h1 class='header-text> <em>...header 1 text goes here...</em>\</h1>.
+  * e.g: \<p id='author-text'><em>...author text goes here...</em>\</p>
+
+* 8 - The usage of classes and id allows CSS to apply the same decoration to all the tags falling under the same class/id attribute. Use '.' (dot) before specifying the class name and '#' (hashtag) before the id.
+  * e.g: 
+    * .main-text{<br> 
+        text-align: right<br>
+        }
+    *   .random-text{<br> 
+        text-align: center;<br>
+        }
+    * .author-text{<br> 
+        font-size: 22px;<br>
+        }
+
+* 9 - The usage of id's is <strong>not a good practice</strong> because they can't be reused! Use classes instead!
+
+*
   
 
 
