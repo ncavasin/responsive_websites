@@ -13,18 +13,15 @@ Finish date:
 
 * 2 - Use 'alt' attribute inside an "img" tag to describe the image in case the browser can't display it. 
 
-* 3 - Use an "a" tag with a 'href' attribute to create links. <br> 
-    * Links can be externals (to another websites or content outside our project):<br>
-e.g: \<a href=http://www.facebook.com>Link to facebook\<a>.<br>
-    * Links can be internals (to images or content inside our project):<br>
-e.g: \<a href=logo.jpg>Link to logo image\<a>.
+* 3 - Use an "a" tag with a 'href' attribute to create links. Links can be externals (to another websites or content outside our project) or internals (to images or content inside our project):
+  * e.g:
+    *  \<a href=http://www.facebook.com>Link to facebook\<a>.
+    * \<a href=logo.jpg>Link to logo image\<a>.
 
-* 4 - Use 'target' attribute inside an "a" tag to define wheter the link should be opened.
-    * In the same tab (_self):<br>
-    e.g:\<a href=logo.jpg target="_self">Link to logo image\<a>.
-    
-    * In a new tab (_blank):<br>
-    e.g:\<a href=logo.jpg target="_blank">Link to logo image\<a>.
+* 4 - Use 'target' attribute inside an "a" tag to define wheter the link should be opened. For the same tab use <em>_self</em> for a new tab use <em>_blank</em>.
+  * e.g:
+    * \<a href=logo.jpg target="_self">Link to logo image\<a>.
+    * \<a href=logo.jpg target="_blank">Link to logo image\<a>.
 
 
 ## Section 3 - Intro to CSS
@@ -74,18 +71,21 @@ e.g: \<a href=logo.jpg>Link to logo image\<a>.
         }
 
 * 5 - Colors in CSS are formed by the combination of red, green and blue. Abbreviated as RGB, they're notated with two hexadecimal numbers for each color (#RRGGBB) obtaining up to 16M of colors from all the possible combinations.
-  * e.g: #FF0000 => represents red color.
-  * e.g: #00FF00 => represents green color.
-  * e.g: #0000FF => represents blue.
+  * e.g: 
+    * #FF0000 => represents red color.
+    * #00FF00 => represents green color.
+    * #0000FF => represents blue.
 
 * 6 - CSS colors can have transparency.  In order to use it, the notation has to be different from RGB. Each color HEX value is converted to decimal and then and an additional fractional number is used to define the grade of transparency.<br>
-  * e.g: #00FF00 => rgba(0, 128, 0, 1.0).
-  * e.g: #FF0000 => rgba(128, 0, 0, 0.75).
+  * e.g: 
+    * #00FF00 => rgba(0, 128, 0, 1.0).
+    * #FF0000 => rgba(128, 0, 0, 0.75).
 
 * 7 - HTML allows the definition of <strong>class</strong>es and <strong>id</strong>'s through the attributes 'class' and 'id'. This attributes can be applied to <em> any </em> tag of the HTML file but id's must be unique inside each HTML file and can be applied to one tag only.
-  * e.g: \<body class='main-text> <em>...paragraph text goes here...</em>\</body>.
-  * e.g: \<h1 class='header-text> <em>...header 1 text goes here...</em>\</h1>.
-  * e.g: \<p id='author-text'><em>...author text goes here...</em>\</p>
+  * e.g: 
+    * \<body class='main-text> <em>...paragraph text goes here...</em>\</body>.
+    * \<h1 class='header-text> <em>...header 1 text goes here...</em>\</h1>.
+    * \<p id='author-text'><em>...author text goes here...</em>\</p>
 
 * 8 - The usage of classes and id allows CSS to apply the same decoration to all the tags falling under the same class/id attribute. Use '.' (dot) before specifying the class name and '#' (hashtag) before the id.
   * e.g: 
@@ -101,7 +101,6 @@ e.g: \<a href=logo.jpg>Link to logo image\<a>.
 
 * 9 - The usage of id's is <strong>not a good practice</strong> because they can't be reused! Use classes instead!
 
-*
   
 
 
