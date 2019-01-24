@@ -79,7 +79,7 @@ e.g: \<a href=logo.jpg>Link to logo image\<a>.
   * e.g: #0000FF => represents blue.
 
 * 6 - CSS colors can have transparency. In order to use it, the notation has to be different from RGB. Each color HEX value is converted to decimal and then and an additional fractional number is used to define the grade of transparency.<br>
-  * e.g: #00FF00 => rgba(0, 128, 00, 1).
+  * e.g: #00FF00 => rgba(0, 128, 0, 1.0).
   * e.g: #FF0000 => rgba(128, 0, 0, 0.75).
   
 
