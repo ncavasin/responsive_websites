@@ -102,7 +102,7 @@ Finish date:
 * 9 - The usage of id's is <strong>not a good practice</strong> because they can't be reused! Use classes instead!
 
 * 10 - CSS box model says that every HTML element can be seen as a box. This allows the definition of the space between elements among other things. <br><br> 
-![CSS box model](https://www.google.com/search?q=css+box+model&client=firefox-b-ab&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3g4KO0IfgAhUOHbkGHR5yCpUQ_AUIDigB&biw=1366&bih=630#imgdii=ABS6Dpwvc-RU0M:&imgrc=F3OqBhDA_yZTkM:)
+![CSS box model](https://magnusbenoni.com/content/images/2016/10/css-box-model.png)
 
 
   
