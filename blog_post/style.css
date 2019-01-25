@@ -42,11 +42,6 @@ p{
     text-align: center;
 }
 
-.author-text{
-    font-size: 22px;
-    text-align: left;
-}
-
 .container{
     width: 1140px;
     margin: 20px auto 0 auto;
@@ -58,6 +53,11 @@ p{
     padding-right: 30px;
 }
 
+.blog-post img{
+    height: 150px;
+    width: auto;
+}
+
 .other-posts{
     width: 25%;
     float: left;
@@ -67,3 +67,24 @@ p{
     border-top: 1px solid #808080;
     padding-top: 20px;
 }
+
+.author-box img{
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     float: left;
+     margin-bottom: 20px;
+}
+
+.author-text{
+    font-size: 22px;
+    text-align: left;
+    float: left;
+    margin: 35px 0 0 10px;
+}
+
+.other{
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
