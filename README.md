@@ -167,7 +167,7 @@ Finish date:
         margin-bottom: 20px;<br>
         }
 
-* 16 - Elements with <strong>absolute positioning</strong> can be positioned everywhere we want inside their parent elements <strong>if and only if</strong> the parent positioning <em>is relative</em>.<br>
+* 16 - Elements with <strong>absolute positioning</strong> can be positioned <em>everywhere</em> we want inside their parent elements <strong>if and only if</strong> the parent positioning <em>is relative</em>.<br>
   * e.g: (blog-post is date's parent class)
     * .blog-post {<br>
         width: 75%;<br>
