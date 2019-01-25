@@ -153,7 +153,7 @@ Finish date:
         border-top: 1px solid #808080;<br>
         }
 
-* 15 - Use the 'img' CSS selector to format all the images inside of a box and belonging to a <strong>previously defined class</strong>.
+* 15 - Use the 'img' CSS selector to format all the images inside of a box that has assigned a <strong>previously defined class</strong>.
   * e.g:
     * .author-box{ <br> 
         border-top: 1px solid #808080;<br>
