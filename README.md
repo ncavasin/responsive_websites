@@ -87,7 +87,7 @@ Finish date:
     * \<h1 class='header-text> <em>...header 1 text goes here...</em>\</h1>.
     * \<p id='author-text'><em>...author text goes here...</em>\</p>
 
-* 8 - The usage of classes and id allows CSS to apply the same decoration to all the tags falling under the same class/id attribute. Use '.' (dot) before specifying the class name and '#' (hashtag) before the id.
+* 8 - The usage of classes and id allows CSS to apply the same decoration to all the elements falling under the same class/id attribute. Use '.' (dot) before specifying the class name and '#' (hashtag) before the id.
   * e.g: 
     * .main-text{<br> 
         text-align: right<br>
@@ -100,6 +100,10 @@ Finish date:
         }
 
 * 9 - The usage of id's is <strong>not a good practice</strong> because they can't be reused! Use classes instead!
+
+* 10 - CSS box model says that every HTML element can be seen as a box. This allows the definition of the space between elements among other things. <br><br> 
+![Sarah](css_box_model.png)
+
 
   
 
