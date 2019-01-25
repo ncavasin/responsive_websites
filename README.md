@@ -123,7 +123,7 @@ Finish date:
         font-size: 40px;<br>
         margin-bottom: 20px;<br>
         }
-* h2{ <br> 
+    * h2{ <br> 
         font-size: 30px;<br>
         margin-bottom: 10px;<br>
         }
