@@ -167,7 +167,19 @@ Finish date:
         margin-bottom: 20px;<br>
         }
 
-* 16 - 
+* 16 - Elements with <strong>absolute positioning</strong> can be positioned everywhere we want inside their parent elements <strong>if and only if</strong> the parent positioning <em>is relative</em>.<br>
+  * e.g: (blog-post is date's parent class)
+    * .blog-post {<br>
+        width: 75%;<br>
+        float: left;<br>
+        padding-right: 30px;<br>
+        position: relative; <br>
+    }
+    * .date{<br>
+        position: absolute;<br>
+        top: 10px;<br>
+        right: 30px;<br>
+    }
 
 ## Section 4 - Web design basics
 
