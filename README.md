@@ -7,7 +7,7 @@ Finish date:
 
 # Stuff learnt so far
 
-## Section 2 - Intro to HTML
+## Section 2 - Dive into HTML
 
 * 1 - Use '\<br>' as '\n' in java.
 
@@ -18,13 +18,26 @@ Finish date:
     *  \<a href=http://www.facebook.com>Link to facebook\<a>.
     * \<a href=logo.jpg>Link to logo image\<a>.
 
-* 4 - Use 'target' attribute inside an "a" tag to define wheter the link should be opened. For the same tab use <em>_self</em> for a new tab use <em>_blank</em>.
+* 4 - Use 'target' attribute inside an "a" tag to define wheter the link should be opened. For the same tab use <em>_self</em> and for a new tab use <em>_blank</em>.
   * e.g:
     * \<a href=logo.jpg target="_self">Link to logo image\<a>.
     * \<a href=logo.jpg target="_blank">Link to logo image\<a>.
 
+* 5 - HTML allows the definition of <strong>class</strong>es and <strong>id</strong>'s through the attributes 'class' and 'id'. This attributes can be applied to <em> any </em> tag of the HTML file but id's must be unique inside each HTML file and can be applied to one tag only.
+  * e.g: 
+    * \<body class='main-text> <em>...paragraph text goes here...</em>\</body>.
+    * \<h1 class='header-text> <em>...header 1 text goes here...</em>\</h1>.
+    * \<p id='author-text'><em>...author text goes here...</em>\</p>
 
-## Section 3 - Intro to CSS
+* 6 - The "div" element allows to divide the web into sections, creating pseudo-containers to store our content inside them. As with other elements, "div" tag can be decorated using CSS too.
+  * e.g: 
+    * \<div><br>
+    \<h1><em>...h1 text goes here...</em>\</h1><br>
+     \<h2><em>...h2 text goes here...</em>\</h1><br>
+    \<p><em>...p text goes here...</em>\</p><br>
+    \</div>
+
+## Section 3 - Formatting with CSS
 
 * 1 - Use "link" tag to link CSSs files to the HTML. It must be placed in the HTML "header".<br>
   * e.g: \<link rel="stylesheet" type="text/css" href="style.css">
@@ -81,13 +94,7 @@ Finish date:
     * #00FF00 => rgba(0, 128, 0, 1.0).
     * #FF0000 => rgba(128, 0, 0, 0.75).
 
-* 7 - HTML allows the definition of <strong>class</strong>es and <strong>id</strong>'s through the attributes 'class' and 'id'. This attributes can be applied to <em> any </em> tag of the HTML file but id's must be unique inside each HTML file and can be applied to one tag only.
-  * e.g: 
-    * \<body class='main-text> <em>...paragraph text goes here...</em>\</body>.
-    * \<h1 class='header-text> <em>...header 1 text goes here...</em>\</h1>.
-    * \<p id='author-text'><em>...author text goes here...</em>\</p>
-
-* 8 - The usage of classes and id allows CSS to apply the same decoration to all the elements falling under the same class/id attribute. Use '.' (dot) before specifying the class name and '#' (hashtag) before the id.
+* 7 - The usage of HTML classes and id's allows CSS to apply the same decoration to all the elements falling under the same class/id attribute. Use '.' (dot) before specifying the class name and '#' (hashtag) before the id.
   * e.g: 
     * .main-text{<br> 
         text-align: right<br>
@@ -99,27 +106,80 @@ Finish date:
         font-size: 22px;<br>
         }
 
-* 9 - The usage of id's is <strong>not a good practice</strong> because they can't be reused! Use classes instead!
+* 8 - The usage of id's is <strong>not a good practice</strong> because they can't be reused! Use classes instead!
 
-* 10 - CSS box model says that every HTML element can be seen as a box. This allows the definition of the space between elements among other things. Everything, except the content of an element, is a CSS property and can be applied to the whole box or to a specific side (top, left, bottom or right).<br><br> 
+* 9 - CSS box model says that every HTML element can be seen as a box. This allows the definition of the space between elements among other things. Everything, except the content of an element, is a CSS property and can be applied to the whole box or to a specific side (top, left, bottom or right).<br><br> 
 ![CSS box model](https://drupal.ed.team/sites/default/files/inline-images/box-model.png)
   *  Content: text, images, etc.  
   *  Padding: transparent area around the content and inside of a box.
   *  Border: wraps the padding and content. Can be transparent, or not.
   *  Margin: space between boxes.
 
-* 11 - Default CSS box model has the <em>disadvantage</em> of only setting the height and width of the content instead of the entire box <em>(aka element)</em>. So padding, border and margin are values added to the height and width previously defined, which isn't a good idea.<br><strong>Solution:</strong> use the "box-sizing" CSS property and set it to 'border-box' to define the height and width of the whole box instead of the content only.
+* 10 - Default CSS box model has the <em>disadvantage</em> of only setting the height and width of the content instead of the entire box <em>(aka element)</em>. So padding, border and margin are values added to the height and width previously defined, which isn't a good idea.<br><strong>Solution:</strong> use the "box-sizing" CSS property and set it to 'border-box' to define the height and width of the whole box instead of the content only.
 
-* 12 - To define the margin/s of an element, do it inside its own rule.
+* 11 - To define the properties of an element (padding, border or margin), do it inside its own rule.
   * e.g:
     * h1{ <br> 
         font-size: 40px;<br>
         margin-bottom: 20px;<br>
         }
-    * h2{ <br> 
+* h2{ <br> 
         font-size: 30px;<br>
         margin-bottom: 10px;<br>
         }
+
+* 12 - The "float" CSS property allows to put boxes one next to the other. It's a very interesting property because an element can be pushed left or right, allowing other elements to wrap around it.<br>To move other elements <strong>to the right of the selected box</strong>, set "float" to 'left' => the element will be floated to the left, causing all other elements to move to its right.<br>To move other elements <strong>to the left of the selected box</strong>, set "float" to 'right' => he element will be floated to the right, causing all other elements to move to its left.
+  * e.g: 
+    * .blog-post{ <br> 
+        background-color: #0000FF;<br>
+        width: 75%;<br>
+        float: left;<br>
+        }
+    * .other-posts{ <br> 
+    background-color: #00FF00;<br>
+    width: 25%;<br>
+    float: left;<br>
+    }
+
+* 13 - The cleanest way of defining the margins of a box is using the "margin" property which is allows to set all of them in the same line. The order is clock-wise (top, right, bottom, left).
+  * e.g:
+    * .container{ <br> 
+        margin: 20px auto 0 auto;<br>
+        }
+
+* 14 - To define the borders of a box use the "border" property (border-top/right/bottom/left). Its input values are: width, type and color.
+  * e.g:
+    * .author-box{ <br> 
+        border-top: 1px solid #808080;<br>
+        }
+
+## Section 4 - Web design basics
+
+
+
+## Section 5 - The killer website project
+
+
+
+
+
+## Section 6 - Responsive web design with media queries
+
+
+
+
+## Section 7 - Let's add some cool effects
+
+
+
+
+
+## Section 8 - Optimizing and launching our website
+
+
+
+
+
     
 
 
