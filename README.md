@@ -142,7 +142,8 @@ Finish date:
     }
 
 * 13 - The cleanest way of defining the margins of a box is using the "margin" property which is allows to set all of them in the same line. The order is clock-wise (top, right, bottom, left).
-  * e.g: .container{ <br> 
+  * e.g:
+    * .container{ <br> 
         margin: 20px auto 0 auto;<br>
         }
 
