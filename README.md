@@ -108,19 +108,19 @@ Finish date:
   *  Border: wraps the padding and content. Can be transparent, or not.
   *  Margin: space between boxes.
 
-* 11 - Default CSS box model has the <em>disadvantage</em> of only setting the height and width of the content instead of the entire box <em>(aka element)</em>. So padding, border and margin are values added to the height and width previously defined, which isn't a good idea.<br><strong>Solution:</strong> use the "box-sizing" CSS property and set it to 'border-box' to define the height and width of the whole box.
+* 11 - Default CSS box model has the <em>disadvantage</em> of only setting the height and width of the content instead of the entire box <em>(aka element)</em>. So padding, border and margin are values added to the height and width previously defined, which isn't a good idea.<br><strong>Solution:</strong> use the "box-sizing" CSS property and set it to 'border-box' to define the height and width of the whole box instead of the content only.
 
-* 12 - HTML has block elements (h1, p, etc.) and inline elements (images, links, \<em>, \<strong>, etc.). 
-  * Block elements use the full width of the browser and force line-breaks. 
-  * Inline elements can be manually configured.
-
-* 13 - To define the margin of a specific side of an element, do it inside its own rule.
+* 12 - To define the margin/s of an element, do it inside its own rule.
   * e.g:
     * h1{ <br> 
-        color: green;<br>
         font-size: 40px;<br>
         margin-bottom: 20px;<br>
         }
+    * h2{ <br> 
+        font-size: 30px;<br>
+        margin-bottom: 10px;<br>
+        }
+    
 
 
   
