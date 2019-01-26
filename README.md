@@ -42,7 +42,7 @@ Finish date:
 * 1 - Use "link" tag to link CSSs files to the HTML. It must be placed in the HTML "header".<br>
   * e.g: \<link rel="stylesheet" type="text/css" href="style.css">
 
-* 2 - CSS is rule based. Each rule has a selector (h1, h2, p, etc.) block and a decorator block (color, font-size, font-family, etc.).
+* 2 - CSS is rule based. Each rule has a selector (h1, h2, p, etc.) and a decoration block (color, font-size, font-family, etc.).
   * e.g: 
     * h1{ <br> 
         color : green;<br>
@@ -128,7 +128,7 @@ Finish date:
         margin-bottom: 10px;<br>
         }
 
-* 12 - The "float" CSS property allows to put boxes one next to the other. It's a very interesting property because an element can be pushed left or right, allowing other elements to wrap around it.<br>To move other elements <strong>to the right of the selected box</strong>, set "float" to 'left' => the element will be floated to the left, causing all other elements to move to its right.<br>To move other elements <strong>to the left of the selected box</strong>, set "float" to 'right' => he element will be floated to the right, causing all other elements to move to its left.
+* 12 - The "float" CSS property allows to put block elements side-by-side. It's a very interesting property because an element can be pushed left or right, allowing other elements to wrap around it.<br>To move other elements <strong>to the right of the selected one</strong>, set "float" to 'left' => the element will be floated to the left, causing all other elements to move to its right.<br>To move other elements <strong>to the left of the selected one</strong>, set "float" to 'right' => he element will be floated to the right, causing all other elements to move to its left.
   * e.g: 
     * .blog-post{ <br> 
         background-color: #0000FF;<br>
