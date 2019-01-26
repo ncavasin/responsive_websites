@@ -13,7 +13,7 @@ Finish date:
 
 * 3 - Use an "a" tag with a 'href' attribute to create links. Links can be externals (to another websites or content outside our project) or internals (to images or content inside our project):
   * e.g:
-    *  \<a href=\http://www.facebook.com>Link to facebook\<a>.
+    *  \<a href=http://www.facebook.com\>Link to facebook\<a>.
     * \<a href=logo.jpg>Link to logo image\<a>.
 
 * 4 - Use 'target' attribute inside an "a" tag to define wheter the link should be opened. For the same tab use <em>_self</em> and for a new tab use <em>_blank</em>.
