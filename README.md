@@ -181,6 +181,16 @@ Finish date:
 
 ## Section 4 - Web design basics
 
+* 1 - Typography tips:
+  * Use font size between 15px and 25px.
+  * Use really big sizes for headlines, 32px +.
+    * It may be a good idea to decrease font weight too.
+  * Use linespaces (vertical spaces between lines) between 120-150%.
+  * Each line should have 45 to 90 characters.
+  * Make sure to choose the most adequate fonts based on the type of website.
+    * Sans-serif family is one of the most used.
+  
+* 2 - 
 
 
 ## Section 5 - The killer website project
