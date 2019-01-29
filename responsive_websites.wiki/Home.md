@@ -226,7 +226,7 @@ Welcome to the responsive_websites wiki!
   
   * <strong>Blur</strong> the image. It's very powerful and good looking. You can blur the whole image or use an out-of-focus area of a photo as the blur => Make sure the text stays at the <strong>same position</strong> on all screen resolutions.
 
-  * <strong>Floor-fade</strong> the image. It's a technique where an image subtly fades towards black at the bottom with white text written over it. It's unnoticeable and improves readibility a lot.
+  * <strong>Floor-fade</strong> the image. It's a technique where an image subtly fades towards black at the bottom with white text written over it. It's unnoticeable and improves readibility a lot!
 
 ## Section 5 - The killer website project
 
