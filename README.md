@@ -5,6 +5,8 @@ Start date: Tuesday 22/1/2019
 
 Finish date:
 
+Take a look at the website wiki for more info!
+
 ## Section 2 - Dive into HTML
 
 * 1 - Use '\<br>' as '\n' in java.
