@@ -9,7 +9,6 @@
     .row{ padding: 0 2%; }
 
     .long-copy{
-        text-align: center;
         width: 60%;
         margin-left: 20%;
     }
@@ -32,9 +31,7 @@
 
     .footer-nav li{ margin-right: 12px; }
 
-    .plan-box ul li{
-        font-size: 92%;
-    }
+    .plan-box ul li{ font-size: 92%; }
 
 }
 
@@ -47,7 +44,6 @@
     section{ padding: 60px 0;}
 
     .long-copy{
-        text-align: center;
         width: 80%;
         margin-left: 10%;
     }
@@ -56,19 +52,16 @@
 
     .steps-box:last-child{ margin-top: 10px;}
 
-    .works-step{ 
-        margin-top: 45px;
-        margin-bottom: 60px;
-    }
+    .works-step{ margin-bottom: 40px; }
 
     .works-step p{ margin-right: -4px;}
 
     .works-step:last-of-type{ 
-        margin-top: 25px;
-        margin-bottom: 100px; 
+        margin-top: 20px;
+        margin-bottom: 60px; 
     }
 
-    .app-screen{ width: 50%; }
+    .app-screen{ width: 60%; }
 
     .button-app img{ margin-right: 0;}
     
@@ -80,22 +73,63 @@
 
     .city-feature{ font-size: 85%; }
 
-    .plan-box div{
-        font-size: 90%;
-    }
+    .plan-box div{ font-size: 90%; }
 
-    .plan-box ul li{
-        font-size: 80%;
-    }
-  
+    .plan-box ul li{ font-size: 80%; }
+
+    .contact-form{ width: 85%; }  
 }
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px){
+    body{ font-size: 16px;}
 
+    section{ padding: 30px; }
+
+    .row,
+    .hero-text-box{ padding: 0 4%;}
+
+    .col { 
+        width: 100%;
+        margin: 0 0 1% 0;
+    }
+
+    .main-nav{ display: none;}
+
+    h1{ font-size: 180%; }
+
+    h2{ font-size: 150%; }
+
+    .long-copy{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .steps-box:first-child{ text-align: center; }
+
+    .app-screen{ width: 40%; }
+
+    .works-step{ margin-bottom: 20px; }
+
+    .works-step div{        
+        height: 40px;
+        width: 40px;
+        padding: 4px;
+        padding-top: 8px;
+        font-size: 120%;
+    }
+
+    .works-step:last-of-type{ 
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+    
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px){
+    section{ padding: 25px 0; }
+
+    .contact-form{ width: 100%; }
 
 }

@@ -12,13 +12,15 @@
     outline: none;
 }
 
-html{
+html,
+body{
     background: #ffffff;
     color: #555;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clear-fix{
@@ -300,6 +302,7 @@ header{
     margin-top: 70px;
 }
 
+/* iPhone image */
 .app-screen{
     width: 40%;
 }
@@ -312,6 +315,7 @@ header{
     margin-bottom: 80px;
 }
 
+/* step-circles */
 .works-step div{
     color: #e67e22;
     border: 2px solid #e67e22;
@@ -328,6 +332,7 @@ header{
     float: left;    
 }
 
+/* app store and play store buttons */
 .button-app img{
     height: 50px;
     width: auto;
