@@ -132,4 +132,22 @@
 
     .contact-form{ width: 100%; }
 
+    .works-step:last-of-type{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .city-feature{ font-size: 100%; }
+
+    .footer-nav{ 
+        margin-top: -10px;
+        text-align: center;
+        width: 100%;}
+
+    .social-links{ 
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+
 }
