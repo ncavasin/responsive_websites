@@ -49,6 +49,44 @@ $(document).ready(function(){
     }
     });
     
-    
+    /* CSS animations on scroll */
+    $('.js--wp-1').waypoint(function(direction){
+        $('.js--wp-1').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    });  
+
+    $('.js--wp-2').waypoint(function(direction){
+        $('.js--wp-2').addClass('animated fadeInUp');
+    }, {
+        offset: '50%'
+    });  
+
+    $('.js--wp-3').waypoint(function(direction){
+        $('.js--wp-3').addClass('animated pulse');
+    }, {
+        offset: '50%'
+    });  
+
+    /* Mobile navigation */
+    $('.js--nav-icon').click(function(){
+        var nav = $('.js--main-nav');
+
+        nav.slideToggle(200);
+
+        var icon = $('.js--nav-icon i');
+
+        if(icon.hasClass('icon ion-md-menu')){
+            icon.addClass('icon ion-md-close');
+            icon.removeClass('icon ion-md-menu');
+        }else{
+            icon.removeClass('icon ion-md-close');
+            icon.addClass('icon ion-md-menu');
+        }
+    });
+
+
+
+
 
 });
