@@ -5,6 +5,6 @@ Start date: Tuesday 22/1/2019
 
 Finish date: Mon 18/2/2019
 
-![Certificate](https://github.com/ncavasin/responsive_websites/blob/master/04_certificate_of_completition/UC-TS6FOGDJ.jpg)
-
 Take a look at the website wiki for more info!
+
+![Certificate](https://github.com/ncavasin/responsive_websites/blob/master/04_certificate_of_completition/UC-TS6FOGDJ.jpg)
