@@ -1,5 +1,5 @@
 # Real world responsive websites
-Repo used for completing the ["Build Responsive Real World Websites with HTML5 and CSS3"][1] Udemy course.
+Repo used for completing the [Build Responsive Real World Websites with HTML5 and CSS3][1] Udemy course.
 
 Start date: Tuesday 22/1/2019
 
